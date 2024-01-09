@@ -1,0 +1,68 @@
+:root {
+    --black: #262626;
+    --red: #FF2E2E;
+    --strong-orange: #FF5232;
+    --light-blue: #5BFFB5;
+    --white: #f7f7f7;
+    --light-gray: #f7f7f7;
+    --dark-gray: #404040;
+}
+
+h2 {
+    margin: 0;
+    font-size: 38px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.about-container {
+    margin-top: -30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: var(--light-blue);
+}
+
+.about {
+    width: 30%;
+    text-align: start;
+}
+
+.about-text h4 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.ilust-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ilus {
+    width: 50px;
+    height: 50px;
+}
+
+i {
+    font-size: 60px;
+}
+
+.my-img-2 {
+    width: 500px;
+}
+
+img {
+    width: 100%;
+}
