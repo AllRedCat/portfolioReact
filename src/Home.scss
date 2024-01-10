@@ -140,6 +140,10 @@ textarea {
     color: var(--black);
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 .btn-space {
     display: flex;
     justify-content: flex-end;
@@ -162,4 +166,14 @@ textarea {
 .btn-submit {
     background-color: var(--strong-orange);
     font-weight: 600;
+}
+
+// Versão mobile
+
+@media (max-width: 480px) {
+    .my-img {
+        display: none;
+    }
+
+    form {width: 310px;}
 }

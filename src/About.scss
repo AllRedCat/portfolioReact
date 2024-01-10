@@ -24,7 +24,7 @@ h5 {
 }
 
 .about-container {
-    margin-top: -30px;
+    margin-top: -5px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -61,8 +61,16 @@ i {
 
 .my-img-2 {
     width: 500px;
+    height: 500px;
 }
 
-img {
-    width: 100%;
+.my-img2 {
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 480px) {
+    .my-img-2{
+        display: block;
+    }
 }
