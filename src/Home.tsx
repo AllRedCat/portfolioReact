@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import InputMask from 'react-input-mask'
 import './Home.scss'
 import desingImg from './assets/design illustration.svg'
 
@@ -21,6 +22,13 @@ function Home() {
 
     // Aqui vai o formulário
     function FormPage() {
+        const [formData, setFormData] = useState({
+            name: '',
+            email: '',
+            phoneNumber: '',
+            message: '',
+        });
+
         const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
             event.preventDefault();
             const formData = new FormData(event.currentTarget as HTMLFormElement);
@@ -57,6 +65,16 @@ function Home() {
                     </label>
                     <label>Email
                         <input type="email" name="email" />
+                    </label>
+                    <label>Contato
+                        <InputMask
+                            mask="(99) 99999-9999"
+                            type="tel"
+                            name="phoneNumber"
+                            value={formData.phoneNumber}
+                            onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
+                            placeholder="(99) 99999-9999"
+                        />
                     </label>
                     <label>Mensagem
                         <textarea name="message"></textarea>
