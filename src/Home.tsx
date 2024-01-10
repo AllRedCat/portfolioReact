@@ -72,7 +72,7 @@ function Home() {
                             type="tel"
                             name="phoneNumber"
                             value={formData.phoneNumber}
-                            onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
+                            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, phoneNumber: e.target.value })}
                             placeholder="(99) 99999-9999"
                         />
                     </label>
