@@ -64,16 +64,16 @@ function App() {
         <header>
           <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container bg-ligh-subtle">
-              <a className="navbar-brand" href="#" onClick={HomeShow}>RedCat</a>
+              <a className="navbar-brand" onClick={HomeShow}>RedCat</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ms-auto">
-                  <a className="nav-link" href="#" onClick={AboutShow}>Sobre</a>
-                  <a className="nav-link" href="#" onClick={ServicesShow}>Serviços</a>
-                  <a className="nav-link" href="#" onClick={JobsShow}>Portfólio</a>
+                  <a className="nav-link" onClick={AboutShow}>Sobre</a>
+                  <a className="nav-link" onClick={ServicesShow}>Serviços</a>
+                  <a className="nav-link" onClick={JobsShow}>Portfólio</a>
                 </div>
               </div>
             </div>
