@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Portfolio de Gabriel | RedCat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é o meu portfólio pessoal, desenvolvido em React com TypeScript usando o Vite. A construção deste site não apenas serviu como uma apresentação do meu trabalho, mas também como uma oportunidade de aprimorar minhas habilidades em React e Typescript.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React:** A biblioteca JavaScript para criar interfaces de usuário.
+- **TypeScript:** O superset de JavaScript para adição de tipagem estática.
+- **Vite:** Um construtor de aplicações web rápido e flexível.
+- **SASS:** Uma extensão do CSS que facilita a escrita de estilos mais complexos.
 
-## Expanding the ESLint configuration
+## Funcionalidades e Destaques
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Formulários Funcionais:** Implementação de formulários interativos usando React, incluindo validação e envio de dados para uma API.
+  
+- **Renderização de Componentes:** Demonstração da criação e renderização de componentes reutilizáveis, proporcionando uma estrutura modular ao projeto.
 
-- Configure the top-level `parserOptions` property like this:
+- **Integração com API:** Utilização de uma API para obter ou enviar dados, exibindo habilidades de integração e manipulação de dados externos.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Estilização com SASS:** Aplicação de estilos consistentes e aprimorados ao projeto usando SASS, tornando a estilização mais modular e fácil de manter.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **UI Design:** Foco na experiência do usuário através de um design intuitivo e amigável, refletindo o cuidado com a estética e usabilidade.
+
+## Screenshots
+
+![Formulário](./src/assets/Form%20screenshot.png)
+![Sobre](./src/assets/AboutScreenshot.png)
+![Serviços](./src/assets/ServicesScreenshot.png)
