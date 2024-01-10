@@ -28,3 +28,19 @@ section {
     width: 900px;
     height: 500px;
 }
+
+@media (max-width: 480px) {
+    section {
+        margin-top: 150px;
+    }
+
+    .swiper {
+        width: 300px;
+        height: 200px;
+    }
+
+    .slide-img {
+        width: 300px;
+        height: 160px;
+    }
+}
