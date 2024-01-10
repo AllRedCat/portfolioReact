@@ -41,6 +41,7 @@ function Home() {
 
             if (res.success) {
                 console.log("Success", res);
+                SwitchScreen();
             }
             else {
                 alert("Falha ao enviar. Por favor, tente novamente.");
